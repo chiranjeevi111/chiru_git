@@ -4,7 +4,7 @@ A **conjunction** is a word or a group of words that connects words, phrases, cl
 Example:
 - I like tea **and** coffee. (Connects two words)
 - She is tired, **but** she is happy. (Connects two clauses)
-- You can stay here **or** go home. (Connects two ideas)
+- You can stay here **or** go home. (Connects two ideas))
 
 ---
 
