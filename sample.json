@@ -1,10 +1,5 @@
 {
-<<<<<<< HEAD
-  "feature" : "cool feature" ,
-   "bug_fixed" : "critical",
-   "bug_fixed" : "cool_feature_prasue"
-=======
     "bug_fixed" : "critical",
-    "bug_fixed_prasu" : "critical_prasue"
->>>>>>> main
+    "bug_fixed_prasu" : "critical_prasue",
+    "bug_fixed_adithya" : "adithya"
 }
