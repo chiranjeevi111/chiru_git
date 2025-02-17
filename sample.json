@@ -1,4 +1,5 @@
 {
   "feature" : "cool feature" ,
-   "bug_fixed" : "critical"
+   "bug_fixed" : "critical",
+   "bug_fixed" : "cool_feature_prasue"
 }
