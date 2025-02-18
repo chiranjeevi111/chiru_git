@@ -136,6 +136,105 @@
 - **`git clean -f`**:  
   Deletes untracked files from the working directory.
 
+
+Git Lense:
+-----------
+
+**GitLens** is a popular **Visual Studio Code (VS Code) extension** that supercharges Git capabilities within the editor. It provides powerful features to help you visualize, navigate, and understand your Git repository, making it easier to work with version control directly in VS Code.
+
 ---
 
-These commands cover the majority of daily Git usage. Mastering these will make you highly efficient in managing Git repositories!
+### Key Features of GitLens:
+
+1. **Enhanced Git Blame**:
+   - Displays detailed blame annotations inline in your code, showing:
+     - Who last modified each line.
+     - When the change was made.
+     - The commit message associated with the change.
+   - You can hover over the blame annotations to see even more details.
+
+2. **Code Lens**:
+   - Adds actionable information directly in your code, such as:
+     - The number of authors who have worked on a piece of code.
+     - The latest commit message for a function or block of code.
+   - Clicking on the Code Lens can show you the commit history or open a comparison view.
+
+3. **Commit History**:
+   - Provides a detailed view of the commit history for:
+     - The entire repository.
+     - A specific file.
+     - A specific line or block of code.
+   - You can easily browse, search, and filter commits.
+
+4. **File History**:
+   - Shows the history of changes for a specific file, including:
+     - Who changed the file.
+     - When the changes were made.
+     - What changes were made.
+
+5. **Compare Changes**:
+   - Allows you to compare:
+     - Branches.
+     - Commits.
+     - Files or specific lines of code.
+   - Helps you understand the differences between versions.
+
+6. **Repository Navigation**:
+   - Provides a **GitLens Explorer** in the VS Code sidebar, where you can:
+     - View branches, tags, and remotes.
+     - Navigate through stashes and commit history.
+     - Access quick actions for common Git operations.
+
+7. **Interactive Rebasing**:
+   - Simplifies the process of interactive rebasing by providing a visual interface to reorder, edit, squash, or drop commits.
+
+8. **Worktrees Support**:
+   - Helps you manage multiple worktrees (parallel working directories) for the same repository.
+
+9. **Search and Compare**:
+   - Allows you to search and compare changes across commits, branches, and files.
+
+10. **Customizable**:
+    - GitLens is highly customizable, allowing you to configure:
+      - Which features to enable or disable.
+      - How blame annotations and Code Lens are displayed.
+      - Keyboard shortcuts for quick access to GitLens features.
+
+---
+
+### Why Use GitLens?
+- **Improved Productivity**: GitLens integrates Git functionality directly into your editor, reducing the need to switch to a terminal or external Git tool.
+- **Better Code Understanding**: By visualizing who changed what and when, you can better understand the evolution of your codebase.
+- **Enhanced Collaboration**: GitLens makes it easier to track changes made by team members and understand the context behind those changes.
+
+---
+
+### How to Install GitLens:
+1. Open **VS Code**.
+2. Go to the **Extensions Marketplace** (Ctrl+Shift+X or Cmd+Shift+X on macOS).
+3. Search for **GitLens**.
+4. Click **Install**.
+
+---
+
+### Example Use Cases:
+1. **Viewing Blame Information**:
+   - Hover over a line of code to see who last modified it and the associated commit message.
+
+2. **Exploring Commit History**:
+   - Right-click a file and select **GitLens: Open File History** to see all changes made to that file.
+
+3. **Comparing Branches**:
+   - Use the **GitLens Explorer** to compare the differences between two branches.
+
+4. **Interactive Rebasing**:
+   - Use the **GitLens Rebasing** feature to clean up your commit history before merging.
+
+---
+
+### Summary:
+- **GitLens** is a powerful VS Code extension that enhances Git functionality.
+- It provides features like **blame annotations**, **Code Lens**, **commit history**, **file history**, and **branch comparisons**.
+- It helps you work more efficiently with Git directly within VS Code.
+
+Let me know if you'd like a deeper dive into any specific feature! 😊
